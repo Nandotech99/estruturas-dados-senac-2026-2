@@ -5,9 +5,14 @@ public class Main {
         System.out.println("Hello world!");
 
         calculateSum(5, 10, "Danilo");
+        calculateSum(2, 15, "Fernando");
     }
 
   public static void calculateSum(int a, int b, String userName) {
         System.out.println(a + b + " " + userName);
     }  
+
+
+
+
 }
