@@ -15,12 +15,12 @@ public class Main {
       for(int i=0;i<caixa.length;i++){
             acumula+=caixa[i];
         }
-        double maiorValor=caixa[0];
+        double maiorValor=caixa[0];// SO PRECISAVA COLOCAR AS VARIAVEIS DEPOIS DE INICIALIZAR O VETOR
         double menorValor=caixa[0];
 
         for(int i =0;i<caixa.length;i++){
             if (caixa[i]>maiorValor){
-                maiorValor = caixa[i];
+                maiorValor = caixa[i]; // SO PRECISAVA INVERTER AS VARIAVEIS
             }else {
               menorValor=caixa[i];
             }
