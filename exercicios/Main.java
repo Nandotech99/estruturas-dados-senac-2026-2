@@ -8,7 +8,7 @@ public class Main {
         double acumula=0;
 
         for(int i=0;i<caixa.length;i++){
-            System.out.println("Insira o valor #"+i);
+            System.out.println("Insira o valor #"+(1+i));
             caixa[i]=sc.nextDouble();
         }
 
