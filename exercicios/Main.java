@@ -33,7 +33,7 @@ public class Main {
 
         for (int i =0;i<caixa.length;i++){
             if (caixa[i]>media){
-                System.out.println("Caixa #"+i+" esta acima da media");
+                System.out.println("Caixa #"+(i+1)+" esta acima da media");
             }
         }
 
