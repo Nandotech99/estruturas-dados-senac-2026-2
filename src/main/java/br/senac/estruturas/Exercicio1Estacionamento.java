@@ -1,4 +1,4 @@
-package br.senac.estruturas;
+switch package br.senac.estruturas;
 
 /**
  * Exercicio 1: controle de vagas em uma rua sem manobra lateral.
